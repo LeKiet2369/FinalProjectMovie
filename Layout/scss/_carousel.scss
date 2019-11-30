@@ -1,0 +1,24 @@
+.my-carousel{
+    position: relative !important;
+    .carousel-indicators{
+        bottom:60px;
+        margin-left: 650px;
+        li{
+            width:11px;
+            height: 11px;
+            background:transparent;
+            border:2px solid #ec7532;
+            border-radius: 50%;
+            background-color: gainsboro;
+            &.active{
+                background-color:#ec7532;
+            }
+        }
+    }
+    .carousel-item{
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}

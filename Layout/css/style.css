@@ -1,0 +1,139 @@
+.login {
+  height: 38px;
+  width: 100%;
+  background-color: #000000; }
+  .login .login_content {
+    height: 38px;
+    display: flex;
+    flex-direction: row; }
+    .login .login_content p {
+      background-color: #9f599b;
+      line-height: 38px;
+      height: 100%;
+      margin-bottom: 0;
+      width: 165px;
+      font-weight: 500; }
+    .login .login_content .login_content_slogan {
+      line-height: 38px;
+      font-size: 14px; }
+    .login .login_content .login_content_user {
+      line-height: 38px;
+      font-size: 14px;
+      margin-left: 270px; }
+      .login .login_content .login_content_user:hover {
+        color: #fe7900 !important;
+        cursor: pointer; }
+
+.header__navbar .navbar-nav {
+  border-color: rgba(255, 255, 255, 0.2) !important; }
+  .header__navbar .navbar-nav .nav-item {
+    position: relative; }
+    .header__navbar .navbar-nav .nav-item::before {
+      content: '';
+      width: 0;
+      height: 3px;
+      background-image: linear-gradient(to right, #fbbd61, #ec7532);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      transition: all 0.5s; }
+    .header__navbar .navbar-nav .nav-item .nav-link {
+      color: black;
+      font-size: 14px;
+      font-weight: bold; }
+
+.header__navbar .nav-item.active:before, .header__navbar .nav-item:hover:before {
+  width: 100%; }
+
+.my-carousel {
+  position: relative !important; }
+  .my-carousel .carousel-indicators {
+    bottom: 60px;
+    margin-left: 650px; }
+    .my-carousel .carousel-indicators li {
+      width: 11px;
+      height: 11px;
+      background: transparent;
+      border: 2px solid #ec7532;
+      border-radius: 50%;
+      background-color: gainsboro; }
+      .my-carousel .carousel-indicators li.active {
+        background-color: #ec7532; }
+  .my-carousel .carousel-item {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+.controlbar {
+  position: absolute;
+  top: 610px;
+  left: 100px;
+  z-index: 10; }
+  .controlbar .controlbar_content {
+    border-radius: 5px !important;
+    margin: 10px;
+    -moz-box-shadow: 3px 3px 5px 0px #666;
+    -webkit-box-shadow: 3px 3px 5px 0px #666;
+    box-shadow: 3px 3px 5px 0px #666; }
+    .controlbar .controlbar_content ul li {
+      border-right: 1px solid gainsboro;
+      width: 200px !important; }
+      .controlbar .controlbar_content ul li a {
+        color: black !important;
+        font-weight: 500; }
+    .controlbar .controlbar_content button {
+      width: 200px;
+      font-weight: 600; }
+
+.showtime {
+  padding: 80px 0; }
+  .showtime .nav-tabs {
+    border: transparent;
+    width: 300px !important;
+    margin-left: 430px; }
+    .showtime .nav-tabs a {
+      font-size: larger;
+      font-weight: 600; }
+  .showtime .tab-content .movie__item {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; }
+    .showtime .tab-content .movie__item img {
+      width: 100%; }
+    .showtime .tab-content .movie__item:hover .movie__overlay {
+      left: -100%; }
+    .showtime .tab-content .movie__item:hover .movie__detail {
+      opacity: 1;
+      transform: translateY(-50%) scale(1); }
+    .showtime .tab-content .movie__item .movie__overlay {
+      position: absolute;
+      top: 0;
+      left: -400%;
+      transform: skewX(45deg);
+      width: 800px;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #a6a6a7);
+      transition: all 0.5s; }
+    .showtime .tab-content .movie__item .movie__detail {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) scale(0.8);
+      left: 0;
+      opacity: 0;
+      transition: all 0.3s; }
+      .showtime .tab-content .movie__item .movie__detail a {
+        font-size: 14px;
+        letter-spacing: 2px; }
+      .showtime .tab-content .movie__item .movie__detail span {
+        font-size: 16px; }
+
+.showtime .nav-tabs .nav-link.active, .showtime .nav-tabs .nav-link:hover {
+  border-color: white white #dee2e6; }
+
+.showtime .nav-tabs .nav-link.active:before, .showtime .nav-tabs .nav-link:hover:before {
+  width: 100%; }
+  .showtime .nav-tabs .nav-link.active:before a, .showtime .nav-tabs .nav-link:hover:before a {
+    color: #ec7532 !important; }
+
+/*# sourceMappingURL=style.css.map */

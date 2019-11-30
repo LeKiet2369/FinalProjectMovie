@@ -1,0 +1,28 @@
+.header__navbar{
+    .navbar-nav{
+        border-color:rgba(255,255,255,0.2) !important;
+        .nav-item{
+            position: relative;
+            &::before{
+                content:'';
+                width:0;
+                height: 3px;
+                background-image:linear-gradient(to right,#fbbd61,#ec7532);
+                position: absolute;
+                bottom:-1px;
+                left:0;
+                transition:all 0.5s;
+            }
+          
+            .nav-link{
+                color:black;
+                font-size:14px;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
+.header__navbar .nav-item.active:before,.header__navbar .nav-item:hover:before{
+    width:100%;
+}
