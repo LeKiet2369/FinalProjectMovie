@@ -1,0 +1,75 @@
+.new{
+    .nav-tabs{
+        border: transparent;  
+        width: 450px !important;
+        margin-left: 400px;
+        a{
+            // color: #ec7532 !important;
+            font-size: larger;
+            font-weight: 600;
+        }
+    }
+    .tab-content{
+        #new{
+            .new_movie{
+                display: flex;
+                flex-direction: column;
+                .new_movie_top{
+                    display: flex;
+                    flex-direction: row;
+                    .new_movie_top_left{
+                        img{
+                            border-radius: 5px;
+                        }
+                        h5{
+                            &:hover{
+                                color: #f16413;
+                                cursor: pointer;
+                            }
+                        }
+                        .comment{
+                            display: flex;
+                            flex-direction: row;
+                        }
+                    }
+                }
+                .new_movie_bottoom{
+                    display: flex;
+                    flex-direction: row;
+                    .new_movie_bottoom_left{
+                        display: flex;
+                        flex-direction: row;
+                        width: 65%;
+                        .new_movie_bottoom_left_content01{
+                            padding: 10px;
+                            img{
+                                border-radius: 5px;
+                            }
+                            h5{
+                                &:hover{
+                                    color: #f16413;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                    }
+                    .new_movie_bottoom_right{
+                        width: 35%;
+                        ul{
+                            li{
+                                img{
+                                    border-radius: 5px;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn{
+        margin-left: 510px;
+    }
+}

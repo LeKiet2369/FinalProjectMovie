@@ -1,0 +1,54 @@
+.footer{
+    padding:80px 0;
+    background: url(../img/backapp.jpg) no-repeat center center;
+    background-size: cover;
+    height: 640px;
+    margin-top: 10px;
+    .container{
+        display: flex;
+        flex-direction: row;
+        .footer_introduction{
+            .footer_introduction_icon{
+                display: flex;
+                flex-direction: row;
+                color: white ;
+                .footer_introduction_icon_detail{
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-radius: 200px;
+                    background: #484d51 ;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .footer_custom{
+            ul{
+                width: 250px;
+                padding: 0;
+                list-style-type: none;
+                text-align: left;
+                margin-top: 25px;
+                li{
+                    width: auto;
+                    height: 40px;
+                    line-height: 40px;
+                    a{
+                        text-decoration: none;
+                        color: white ;
+                        &:hover{
+                            cursor: pointer;
+                            color: #f16413;
+                        }
+                    }
+                }
+            }
+        }
+        .footer_contact{
+            .footer_contact_content{
+                margin-top: 33px;
+            }
+        }
+    }
+}
